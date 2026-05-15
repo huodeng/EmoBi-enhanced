@@ -35,7 +35,10 @@ data.csv
 
 # Results (too large; keep summary table + charts only)
 results/runs/
-results/tables/ablation_live_*.log
+results/tables/
+
+# Project docs (excluded from public repo)
+docs/
 
 # Temp files
 temp_extract_pptx.py
