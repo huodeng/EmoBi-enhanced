@@ -1,0 +1,42 @@
+# API keys - NEVER commit real keys
+.env.local
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+.eggs/
+.python-version
+
+# Virtual environments
+.venv/
+.venv310/
+venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Large third-party datasets / models
+multitask_hyperbole_metaphor_detection-main/data/*.csv
+HypoGen-main/
+LCC_Metaphor_Dataset.small/
+TroFiExampleBase.txt
+data.csv
+
+# Results (too large; keep summary table + charts only)
+results/runs/
+results/tables/ablation_live_*.log
+
+# Temp files
+temp_extract_pptx.py
+pptx_content.txt
